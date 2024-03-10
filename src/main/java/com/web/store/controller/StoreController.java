@@ -225,7 +225,7 @@ public class StoreController {
 
 
     /**
-     * 맛집 북마크 추가 V5
+     * 맛집 북마크 추가 V6
     **/
     //@ResponseBody
     @GetMapping(value ="/bookmark/toggle/{bookmarkId}", produces = "application/json; charset=UTF-8")
@@ -249,7 +249,7 @@ public class StoreController {
         /*return 1;*/
     }
 
-    
+
     /**
      * 맛집 북마크 삭제
      **/
